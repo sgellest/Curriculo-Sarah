@@ -1,0 +1,44 @@
+body{
+    font-family: Arial;
+    margin: 20px;
+    background-color: #5e7763;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #23311a;
+}
+
+h1{
+    text-align:left;
+    margin-bottom: 20px;
+    font-size: 36px;
+    display: block;
+}
+
+.caixa{
+    background: #fff;
+    border: 1px;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 40px auto;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+#objetivo:hover, #link:hover, #idade:hover, #nacionalidade:hover, #telefone:hover, #linkedin:hover, #email:hover, #endereço:hover, #ensino-médio:hover, #técnico:hover, #ouvidoria:hover, #texto:hover, #pacote:hover, #linguagem:hover, #canva:hover, #github:hover, #linkedin2:hover {
+    color: #50bd16;
+    padding-bottom: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #50bd16;
+    text-decoration: underline;
+}
